@@ -1,5 +1,6 @@
 .holder {
-    display: flex;           /* Allow wrapping of items to next row */
+    display: flex;  /* Allow wrapping of items to next row */
+	flex-wrap:wrap;
     justify-content: space-between; /* Space between items, ensures first and last touch screen edges */
     gap: 5px;                 /* Space between items (adjust as needed) */
     padding: 0 10px;           /* Padding on left and right to make items touch the screen edges */
