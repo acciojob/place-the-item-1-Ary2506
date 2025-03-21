@@ -1,2 +1,27 @@
+.holder {
+    display: flex;           /* Allow wrapping of items to next row */
+    justify-content: space-between; /* Space between items, ensures first and last touch screen edges */
+    gap: 5px;                 /* Space between items (adjust as needed) */
+    padding: 0 10px;           /* Padding on left and right to make items touch the screen edges */
+}
+.item {
+    flex:1 1;           /* Allow items to grow and shrink, with a base width of 100px */
+    background-color: green; /* Example background color for visibility */
+    padding: 20px;             /* Padding inside each item */
+    text-align: center;        /* Center the text inside the item */
+    border: 1px solid #ddd;    /* Border for visibility */
+    box-sizing: border-box;    /* Make padding/border part of the total width/height */
+}
+#one{
+	display:flex;
+	order:6;
+	background-color:red;
+}
+#two{
+	display:flex;
+	order:7;
+	background-color:blue;
+}
+
 
 /* Your CSS Code here. */
